@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Html Code</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="head">
+          <img src="images\sampl.png" alt="Logo" />
+          <img src="images\sampl2.png" alt="UserProfile" />
+        </div>
+
+        <div class="navbar" id="navbar">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li><a href="#Services">Services</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <section class="Home" id="home">
+          <h1>Welcome to Our Watch Shopping Experiance</h1>
+
+          <form action="#Home" method="POST">
+            <!-- Code for Watch brand selection -->
+            <label for="watch_brand">Select Watch Brand</label>
+            <select id="watch_brand" name="watch_brand">
+              <option value="casio">Casio</option>
+              <option value="fossil">Fossil</option>
+              <option value="seiko">Seiko</option>
+            </select>
+
+            <!-- code fot watch selection  -->
+            <label for="watch_name">Select Watch</label>
+            <select id="watch_name" name="watch_name">
+              <option value="casio">Casio WT-1202</option>
+              <option value="fossil">Fossil Summer Collection</option>
+              <option value="seiko">Seiko 5</option>
+            </select>
+
+            <!-- code for user information  -->
+
+            <!-- user name  -->
+            <label for="user_name">Full Name</label>
+            <input type="text" name="user_name" />
+
+            <!-- user email  -->
+            <label for="user_email">User Email</label>
+            <input type="email" name="user_email" />
+
+            <!-- Watch Count  -->
+            <label for="user_count">Watch Count</label>
+            <input type="number" name="user_count" />
+
+            <!-- Watch Count  -->
+            <label for="delivery_date">Delevary Date</label>
+            <input type="date" name="delivery_date" />
+
+            <!-- Watch Count  -->
+            <!-- <label for="user_file">Watch Count</label>
+          <input type="file" name="delivery_date">
+          </br> -->
+
+            <!-- user password  -->
+            <label for="user_password">User Passowrd</label>
+            <input type="password" name="user_name" />
+
+            <input type="submit" value="submit" class="submit_button" />
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <section class="about abDetails Sample3" id="About">
+          <h1 class="sample1">About Us!</h1>
+          <p>
+            We are leading watch delevery service provider. we also provide all
+            kind of services
+          </p>
+        </section>
+
+        <section class="parent" id="Contact">
+          <h1 class="child1">Contact Us!</h1>
+          <p class="child2">#09 Full Address of our office</p>
+          <p class="sample1">Phone no. 098876764543</p>
+        </section>
+
+        <section class="services" id="Services">
+          <h1>We Also provide</h1>
+          <h4>Watch Shopping</h4>
+          <h4>Watch Service</h4>
+          <h4>Watch Replacement</h4>
+          <h4>Watch buyback</h4>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

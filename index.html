@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Html Code</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="head">
+          <img src="images\sampl.png" alt="Logo" />
+          <img src="images\sampl2.png" alt="UserProfile" />
+        </div>
+
+        <div class="navbar" id="navbar">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li><a href="#Services">Services</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <h1>Watches</h1>
+        <div class="watch-list" id="watch_list">
+          <div class="watch" id="watch1">
+            <img src="images/sample.png" alt="" />
+            <p class="watch-name">
+              Watch Name : <span class=".name">Casio1</span>
+            </p>
+            <p class="watch-model">Watch model : C1</p>
+            <p class="watch-price">Price : 5000/-</p>
+          </div>
+
+          <div class="watch" id="watch3">
+            <img src="images/sample.png" alt="" />
+            <p class="watch-name">
+              Watch Name : <span class=".name">Casio1</span>
+            </p>
+            <p class="watch-model">Watch model : C1</p>
+            <p class="watch-price">Price : 5000/-</p>
+          </div>
+        </div>
+
+        <div>
+          <button type="button" onclick="update_details()">
+            Change Details
+          </button>
+
+          <button type="button" onclick="add_watch()">Add Watch</button>
+        </div>
+      </main>
+
+      <footer>
+        <section class="about abDetails Sample3" id="About">
+          <h1 class="sample1">About Us!</h1>
+          <p>
+            We are leading watch delevery service provider. we also provide all
+            kind of services
+          </p>
+        </section>
+
+        <section class="parent" id="Contact">
+          <h1 class="child1">Contact Us!</h1>
+          <p class="child2">#09 Full Address of our office</p>
+          <p class="sample1">Phone no. 098876764543</p>
+        </section>
+
+        <section class="services" id="Services">
+          <h1>We Also provide</h1>
+          <h4>Watch Shopping</h4>
+          <h4>Watch Service</h4>
+          <h4>Watch Replacement</h4>
+          <h4>Watch buyback</h4>
+        </section>
+      </footer>
+    </div>
+
+    <script src="scripts/script_part.js"></script>
+  </body>
+</html>
